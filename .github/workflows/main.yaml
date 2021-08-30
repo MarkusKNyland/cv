@@ -1,5 +1,8 @@
 name: Github Actions CI
-on: push
+on:
+  push:
+    branches:
+      - master
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,7 +13,7 @@ jobs:
       uses: xu-cheng/latex-action@v2
       with:
         root_file: cv.tex
-    - name: Check pdf files
+    - name: Check pdf file
       run: |
         file cv.pdf | grep -q ' PDF '
     - name: Upload
