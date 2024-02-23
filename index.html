@@ -1,76 +1,76 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/site.webmanifest">
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
 
-    <!-- Css -->
-    <link rel="stylesheet" href="style.css">
+  <!-- Css -->
+  <link rel="stylesheet" href="style.css">
 
-    <title>Markus Nyland</title>
+  <title>Markus Nyland</title>
 </head>
 <body>
-    <div class="hexagon" style="grid-column-start: 1; grid-row-start: 1; --hexagon-color: #90c12c">
-      <object type="image/svg+xml" data="resources/Pokemon_Type_Icon_Bug.svg" class="type-vector"></object>
-    </div>
-    <div class="hexagon" style="grid-column-start: 1; grid-row-start: 2; --hexagon-color: #5a5366">
-      <object type="image/svg+xml" data="resources/Pokemon_Type_Icon_Dark.svg" class="type-vector"></object>
-    </div>
-    <div class="hexagon" style="grid-column-start: 1; grid-row-start: 3; --hexagon-color: #096dc4">
-      <object type="image/svg+xml" data="resources/Pokemon_Type_Icon_Dragon.svg" class="type-vector"></object>
-    </div>
-    <div class="hexagon" style="grid-column-start: 1; grid-row-start: 4; --hexagon-color: #f3d23b">
-      <object type="image/svg+xml" data="resources/Pokemon_Type_Icon_Electric.svg" class="type-vector"></object>
-  </div>
-    <div class="hexagon" style="grid-column-start: 2; grid-row-start: 1; --hexagon-color: #ec8fe6">
-      <object type="image/svg+xml" data="resources/Pokemon_Type_Icon_Fairy.svg" class="type-vector"></object>
-    </div>
-    <div class="hexagon" style="grid-column-start: 2; grid-row-start: 2; --hexagon-color: #ce4069">
-      <object type="image/svg+xml" data="resources/Pokemon_Type_Icon_Fighting.svg" class="type-vector"></object>
-    </div>
-    <div class="hexagon" style="grid-column-start: 2; grid-row-start: 3; --hexagon-color: #ff9c54">
-      <object type="image/svg+xml" data="resources/Pokemon_Type_Icon_Fire.svg" class="type-vector"></object>
-    </div>
-    <div class="hexagon" style="grid-column-start: 2; grid-row-start: 4; --hexagon-color: #92aade">
-      <object type="image/svg+xml" data="resources/Pokemon_Type_Icon_Flying.svg" class="type-vector"></object>
-    </div>
-    <div class="hexagon" style="grid-column-start: 3; grid-row-start: 1; --hexagon-color: #5269ac">
-      <object type="image/svg+xml" data="resources/Pokemon_Type_Icon_Ghost.svg" class="type-vector"></object>
-    </div>
-    <div class="hexagon" style="grid-column-start: 7; grid-row-start: 1; --hexagon-color: #63bb5b">
-      <object type="image/svg+xml" data="resources/Pokemon_Type_Icon_Grass.svg" class="type-vector"></object>
-    </div>
-    <div class="hexagon" style="grid-column-start: 8; grid-row-start: 1; --hexagon-color: #d97746">
-      <object type="image/svg+xml" data="resources/Pokemon_Type_Icon_Ground.svg" class="type-vector"></object>
-    </div>
-    <div class="hexagon" style="grid-column-start: 8; grid-row-start: 2; --hexagon-color: #74cec0">
-      <object type="image/svg+xml" data="resources/Pokemon_Type_Icon_Ice.svg" class="type-vector"></object>
-    </div>
-    <div class="hexagon" style="grid-column-start: 8; grid-row-start: 3; --hexagon-color: #9099a1">
-      <object type="image/svg+xml" data="resources/Pokemon_Type_Icon_Normal.svg" class="type-vector"></object>
-    </div>
-    <div class="hexagon" style="grid-column-start: 8; grid-row-start: 4; --hexagon-color: #ab6ac8">
-      <object type="image/svg+xml" data="resources/Pokemon_Type_Icon_Poison.svg" class="type-vector"></object>
-    </div>
-    <div class="hexagon" style="grid-column-start: 9; grid-row-start: 1; --hexagon-color: #f97176">
-      <object type="image/svg+xml" data="resources/Pokemon_Type_Icon_Psychic.svg" class="type-vector"></object>
-    </div>
-    <div class="hexagon" style="grid-column-start: 9; grid-row-start: 2; --hexagon-color: #c7b78b">
-      <object type="image/svg+xml" data="resources/Pokemon_Type_Icon_Rock.svg" class="type-vector"></object>
-    </div>
-    <div class="hexagon" style="grid-column-start: 9; grid-row-start: 3; --hexagon-color: #5a8ea1">
-      <object type="image/svg+xml" data="resources/Pokemon_Type_Icon_Steel.svg" class="type-vector"></object>
-    </div>
-    <div class="hexagon" style="grid-column-start: 9; grid-row-start: 4; --hexagon-color: #4d90d5">
-      <object type="image/svg+xml" data="resources/Pokemon_Type_Icon_Water.svg" class="type-vector"></object>
-    </div>
+<div class="hexagon" id="bug-hexagon">
+  <object type="image/svg+xml" data="resources/Pokemon_Type_Icon_Bug.svg" class="type-vector"></object>
+</div>
+<div class="hexagon" id="dark-hexagon">
+  <object type="image/svg+xml" data="resources/Pokemon_Type_Icon_Dark.svg" class="type-vector"></object>
+</div>
+<div class="hexagon" id="dragon-hexagon">
+  <object type="image/svg+xml" data="resources/Pokemon_Type_Icon_Dragon.svg" class="type-vector"></object>
+</div>
+<div class="hexagon" id="electric-hexagon">
+  <object type="image/svg+xml" data="resources/Pokemon_Type_Icon_Electric.svg" class="type-vector"></object>
+</div>
+<div class="hexagon" id="fairy-hexagon">
+  <object type="image/svg+xml" data="resources/Pokemon_Type_Icon_Fairy.svg" class="type-vector"></object>
+</div>
+<div class="hexagon" id="fighting-hexagon">
+  <object type="image/svg+xml" data="resources/Pokemon_Type_Icon_Fighting.svg" class="type-vector"></object>
+</div>
+<div class="hexagon" id="fire-hexagon">
+  <object type="image/svg+xml" data="resources/Pokemon_Type_Icon_Fire.svg" class="type-vector"></object>
+</div>
+<div class="hexagon" id="flying-hexagon">
+  <object type="image/svg+xml" data="resources/Pokemon_Type_Icon_Flying.svg" class="type-vector"></object>
+</div>
+<div class="hexagon" id="ghost-hexagon">
+  <object type="image/svg+xml" data="resources/Pokemon_Type_Icon_Ghost.svg" class="type-vector"></object>
+</div>
+<div class="hexagon" id="grass-hexagon">
+  <object type="image/svg+xml" data="resources/Pokemon_Type_Icon_Grass.svg" class="type-vector"></object>
+</div>
+<div class="hexagon" id="ground-hexagon">
+  <object type="image/svg+xml" data="resources/Pokemon_Type_Icon_Ground.svg" class="type-vector"></object>
+</div>
+<div class="hexagon" id="ice-hexagon">
+  <object type="image/svg+xml" data="resources/Pokemon_Type_Icon_Ice.svg" class="type-vector"></object>
+</div>
+<div class="hexagon" id="normal-hexagon">
+  <object type="image/svg+xml" data="resources/Pokemon_Type_Icon_Normal.svg" class="type-vector"></object>
+</div>
+<div class="hexagon" id="poison-hexagon">
+  <object type="image/svg+xml" data="resources/Pokemon_Type_Icon_Poison.svg" class="type-vector"></object>
+</div>
+<div class="hexagon" id="psychic-hexagon">
+  <object type="image/svg+xml" data="resources/Pokemon_Type_Icon_Psychic.svg" class="type-vector"></object>
+</div>
+<div class="hexagon" id="rock-hexagon">
+  <object type="image/svg+xml" data="resources/Pokemon_Type_Icon_Rock.svg" class="type-vector"></object>
+</div>
+<div class="hexagon" id="steel-hexagon">
+  <object type="image/svg+xml" data="resources/Pokemon_Type_Icon_Steel.svg" class="type-vector"></object>
+</div>
+<div class="hexagon" id="water-hexagon">
+  <object type="image/svg+xml" data="resources/Pokemon_Type_Icon_Water.svg" class="type-vector"></object>
+</div>
 </body>
 </html>
 

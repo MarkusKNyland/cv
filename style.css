@@ -33,5 +33,112 @@ body {
   aspect-ratio: 1 / 1;
   width: 70%;
   z-index: 1;
-  border-radius: 50%;
+}
+
+#bug-hexagon {
+  --hexagon-color: #90c12c;
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+
+#dark-hexagon {
+  --hexagon-color: #5a5366;
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+#dragon-hexagon {
+  --hexagon-color: #096dc4;
+  grid-column-start: 1;
+  grid-row-start: 3;
+}
+
+#electric-hexagon {
+  --hexagon-color: #f3d23b;
+  grid-column-start: 1;
+  grid-row-start: 4;
+}
+
+#fairy-hexagon {
+  --hexagon-color: #ec8fe6;
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+#fighting-hexagon {
+  --hexagon-color: #ce4069;
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+#fire-hexagon {
+  --hexagon-color: #ff9c54;
+  grid-column-start: 2;
+  grid-row-start: 3;
+}
+
+#flying-hexagon {
+  --hexagon-color: #92aade;
+  grid-column-start: 2;
+  grid-row-start: 4;
+}
+
+#ghost-hexagon {
+  --hexagon-color: #5269ac;
+  grid-column-start: 3;
+  grid-row-start: 1;
+}
+
+#grass-hexagon {
+  --hexagon-color: #63bb5b;
+  grid-column-start: 7;
+  grid-row-start: 1;
+}
+
+#ground-hexagon {
+  --hexagon-color: #d97746;
+  grid-column-start: 8;
+  grid-row-start: 1;
+}
+
+#ice-hexagon {
+  --hexagon-color: #74cec0;
+  grid-column-start: 8;
+  grid-row-start: 2;
+}
+
+#normal-hexagon {
+  --hexagon-color: #9099a1;
+  grid-column-start: 8;
+  grid-row-start: 3;
+}
+
+#poison-hexagon {
+  --hexagon-color: #ab6ac8;
+  grid-column-start: 8;
+  grid-row-start: 4;
+}
+
+#psychic-hexagon {
+  --hexagon-color: #f97176;
+  grid-column-start: 9;
+  grid-row-start: 1;
+}
+
+#rock-hexagon {
+  --hexagon-color: #c7b78b;
+  grid-column-start: 9;
+  grid-row-start: 2;
+}
+
+#steel-hexagon {
+  --hexagon-color: #5a8ea1;
+  grid-column-start: 9;
+  grid-row-start: 3;
+}
+
+#water-hexagon {
+  --hexagon-color: #4d90d5;
+  grid-column-start: 9;
+  grid-row-start: 4;
 }
