@@ -15,7 +15,7 @@ body {
   width: 100%;
   height: 100%;
   display: grid;
-  grid-template: auto / repeat(9, 1fr);
+  grid-template: auto / repeat(12, 1fr);
   grid-gap: 1rem;
 }
 
@@ -102,54 +102,59 @@ body {
 
 #grass-hexagon {
   --hexagon-color: #63bb5b;
-  grid-column-start: 7;
+  grid-column-start: -4;
   grid-row-start: 1;
 }
 
 #ground-hexagon {
   --hexagon-color: #d97746;
-  grid-column-start: 8;
+  grid-column-start: -3;
   grid-row-start: 1;
 }
 
 #ice-hexagon {
   --hexagon-color: #74cec0;
-  grid-column-start: 8;
+  grid-column-start: -3;
   grid-row-start: 2;
 }
 
 #normal-hexagon {
   --hexagon-color: #9099a1;
-  grid-column-start: 8;
+  grid-column-start: -3;
   grid-row-start: 3;
 }
 
 #poison-hexagon {
   --hexagon-color: #ab6ac8;
-  grid-column-start: 8;
+  grid-column-start: -3;
   grid-row-start: 4;
 }
 
 #psychic-hexagon {
   --hexagon-color: #f97176;
-  grid-column-start: 9;
+  grid-column-start: -2;
   grid-row-start: 1;
 }
 
 #rock-hexagon {
   --hexagon-color: #c7b78b;
-  grid-column-start: 9;
+  grid-column-start: -2;
   grid-row-start: 2;
 }
 
 #steel-hexagon {
   --hexagon-color: #5a8ea1;
-  grid-column-start: 9;
+  grid-column-start: -2;
   grid-row-start: 3;
 }
 
 #water-hexagon {
   --hexagon-color: #4d90d5;
-  grid-column-start: 9;
+  grid-column-start: -2;
   grid-row-start: 4;
+}
+
+#hexagon-slots {
+  grid-area: 4 / 10 / 2 / 4;
+  position: relative;
 }
